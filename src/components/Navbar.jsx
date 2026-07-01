@@ -11,7 +11,9 @@ function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <h1 className="text-2xl font-bold text-sky-600">LabuanBajoTrip</h1>
+          <a href="#home" className="text-2xl font-bold text-sky-600">
+            LabuanBajoTrip
+          </a>
 
           <ul className="hidden md:flex gap-8">
             {navItems.map((item) => (
